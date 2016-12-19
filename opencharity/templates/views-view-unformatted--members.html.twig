@@ -1,0 +1,21 @@
+<section id="our-members">
+    <div class="container">
+        {% if title %}
+            <h2>{{ title }}</h2>
+        {% else %}
+            <h2>Our Members</h2>
+        {% endif %}
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                {% for row in rows %}
+                    <div class="swiper-slide">
+                        {{ row.content }}
+                    </div>
+                {% endfor %}
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+</section>

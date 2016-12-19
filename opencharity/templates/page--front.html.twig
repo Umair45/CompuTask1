@@ -1,0 +1,25 @@
+<!--------=============HEADER=============-------->
+{% include directory ~ '/includes/header.html.twig' %}
+<main role="main">
+    <!--------Banner-------->
+    {{ page.banner }}
+    <!--------Event Registration-------->
+    {{ page.nextevent }}
+    <!--------Get Involved-------->
+    {{ page.services }}
+    <!--------Our mission-------->
+    <section id="our-mission">
+        <div class="container">
+            {{ page.mission }}
+            <div class="row">
+                {{ page.missionitmes }}
+            </div>
+        </div>
+    </section>
+    <!--------Our Members-------->
+    {{ page.members }}
+    <!--------Blog-------->
+    {{ page.blog }}
+</main>
+<!--------=============Footer=============-------->
+{% include directory ~ '/includes/footer.html.twig' %}

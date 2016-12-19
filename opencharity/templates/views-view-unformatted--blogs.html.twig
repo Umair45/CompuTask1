@@ -1,0 +1,23 @@
+<section id="blog">
+    <div class="container">
+        {% if title %}
+            <h2>{{ title }}</h2>
+        {% else %}
+            <h2>BLOG</h2>
+        {% endif %}
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                {% for row in rows %}
+                <div class="swiper-slide">
+                    <div class="wrapper">
+                        {{ row.content }}
+                    </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</section>

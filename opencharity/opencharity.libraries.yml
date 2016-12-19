@@ -1,0 +1,10 @@
+global-css:
+  css:
+    theme:
+      css/font-awesome.min.css: {}
+      css/swiper.min.css: {}
+      css/main.css: {}
+  js:
+    js/jquery-2.1.4.min.js: {}
+    js/swiper.jquery.min.js: {}
+    js/main.js: {}

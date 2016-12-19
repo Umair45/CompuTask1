@@ -1,0 +1,15 @@
+<section id="get-involved">
+    <div class="container">
+        {% if title %}
+            <h2>{{ title }}</h2>
+         {% else %}
+            <h2>GET INVOLVED</h2>
+        {% endif %}
+        {% for row in rows %}
+            <div class="col-3">
+                {{ row.content }}
+            </div>
+        {% endfor %}
+    </div>
+</section>
+

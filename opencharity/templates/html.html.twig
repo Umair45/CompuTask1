@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html{{ html_attributes }}>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <head-placeholder token="{{ placeholder_token|raw }}">
+    <title>{{ head_title|safe_join(' | ') }}</title>
+    <css-placeholder token="{{ placeholder_token|raw }}">
+    <js-placeholder token="{{ placeholder_token|raw }}">
+  </head>
+  <body{{ attributes }}>
+  <noscript>
+    <div id="browser-warning" class="no-print user-warning">
+      <div class="container">
+        <p>
+          <i class="fa fa-info"></i>It appears JavaScript is disabled. To get the most out of the website we recommend enabling JavaScript in your browser.
+        </p>
+      </div>
+    </div>
+  </noscript>
+  <!--[if lte IE 10]>
+  <div id="browserupgrade">
+    <div class="container">
+      <p><i class="fa fa-info"></i>The browser you are using is out of date. To get the best experience from this and other websites you should update your browser. <a href="http://browsehappy.com/">Learn more about updating your browser</a></p>
+    </div>
+  </div>
+  <![endif]-->
+    {#
+      Keyboard navigation/accessibility link to main content section in
+      page.html.twig.
+    #}
+    <a href="#main-content" class="visually-hidden focusable">
+      {{ 'Skip to main content'|t }}
+    </a>
+    {{ page_top }}
+    {{ page }}
+    {{ page_bottom }}
+    <js-bottom-placeholder token="{{ placeholder_token|raw }}">
+  </body>
+</html>
