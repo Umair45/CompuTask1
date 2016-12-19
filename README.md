@@ -31,7 +31,7 @@ Admin login Page [http://dev-ocharity.pantheonsite.io/user/login](http://dev-och
 
 Admin page [http://dev-ocharity.pantheonsite.io/admin](http://dev-ocharity.pantheonsite.io/admin)
 
-**Theme Architecture**
+# Theme Architecture
 
 Created Different content types for every section on front page and then created template files for each of them to override their default html with my own custom html. Following is the list of content types and their fields and associated twig template files.
 
