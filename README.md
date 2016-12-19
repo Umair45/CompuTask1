@@ -4,12 +4,6 @@ I followed the instructions of Drupal theming from:
 
 http://watch-learn.com/series/drupal-8-theming
 
-## **Drupal compatibility:**
-
-This theme is compatible with Drupal 8.x.x
-
-Installation: Simply extract, copy and paste to /themes directory. Enable it from the admin/appearance/
-
 ## **Installation:**
 
 Assuming you have already installed the Drupal 8.x in your machine. Now follow the following steps:
