@@ -10,7 +10,7 @@ Assuming you have already installed the Drupal 8.x in your machine. Now follow t
 
 1. Copy and paste the extracted opencharity folder to /themes.
 2. From admin/appearance enable and set default the theme.
-3. Now add new content type from admin/structure. I have added three content types for three different regions (Banner, Next Event, Services, Our Mission, Our Members, Our Mission Items and Blog). I have added some new required fields in these content types.
+3. Now add new content type from admin/structure. I have added seven content types for three different regions (Banner, Next Event, Services, Our Mission, Our Members, Our Mission Items and Blog). I have added some new required fields in these content types.
 4. Add some content for various regions.
 5. Now add different views for Banner, Blog, Next Event, Our Members, Our Mission, Our Mission Items and Services from admin/structure/views.
 6. Then, you would have to go to admin/structure/blocks to add the required blocks to specific regions. You will get the newly created views title in the block list below. Just select the region from select box and click save blocks.
@@ -77,9 +77,9 @@ views-view-unformatted--mission\_items.html.twig
 
 **Our Members:**
 
-Our Members slides contents on front page. [Fields: member logo (image), you&#39;ll find this in admin =&gt; Structure =&gt; Content Types =&gt; Respective Content Type]
+Our Members slides contents on front page. [Fields: member logo (image)
 
-We use swiper slider to make slider and all html changes in this file. You can find this in themes =&gt; opencharity =&gt; templates
+We use swiper slider to make slider and all html changes in this file.
 
 views-view-unformatted--members.html.twig
 
